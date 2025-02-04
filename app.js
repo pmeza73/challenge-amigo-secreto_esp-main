@@ -5,7 +5,6 @@ let listaAmigoSecreto = [];
 let amigoSecreto = "";
 const listado = document.getElementById("listaAmigos");
 
-
 function agregarAmigo(){
 
     let amigoSecreto = document.getElementById('amigo').value.trim().toUpperCase(); //conviert todo a Mayuscula
